@@ -1,0 +1,439 @@
+Command-line parameters used:
+                 Parameter              |            Value           
+   -------------------------------------|----------------------------
+       pi_pi_interacting_dist_cutoff    |             7.5            
+           cation_pi_dist_cutoff        |             6.0            
+                   ligand               |       ACE2_full.pdbqt      
+        close_contacts_dist1_cutoff     |             2.5            
+    active_site_flexibility_dist_cutoff |             4.0            
+                output_file             |     ./outtest\output.pdb   
+              pi_padding_dist           |             0.75           
+          hydrophobic_dist_cutoff       |             4.0            
+       T_stacking_closest_dist_cutoff   |             5.0            
+         T_stacking_angle_tolerance     |             30.0           
+        close_contacts_dist2_cutoff     |             4.0            
+                  receptor              |           S1.pdbqt         
+                 output_dir             |          ./outtest\        
+        pi_stacking_angle_tolerance     |             30.0           
+         hydrogen_bond_angle_cutoff     |             40.0           
+         hydrogen_bond_dist_cutoff      |             4.0            
+          salt_bridge_dist_cutoff       |             5.5            
+         electrostatic_dist_cutoff      |             4.0            
+
+Atom-type pair counts within 2.5 angstroms:
+    Atom Type | Atom Type | Count
+   -----------|-----------|-------
+        HD    |     HD    |   5   
+        HD    |     N     |   2   
+        A     |     HD    |   1   
+        HD    |     OA    |   8   
+
+Raw data:
+     A:GLN(24):OE1(56) - E:ASN(487):2HD2(1516)
+     A:LYS(31):HZ1(129) - E:GLN(493):2HE2(1577)
+     A:HIS(34):CD2(162) - E:TYR(453):HH(1177)
+     A:ASP(38):OD2(201) - E:TYR(449):HH(1129)
+     A:TYR(41):HH(237) - E:THR(500):OG1(1641)
+     A:TYR(41):HH(237) - E:THR(500):HG1(1644)
+     A:GLN(42):NE2(246) - E:GLN(498):2HE2(1628)
+     A:GLN(42):1HE2(248) - E:TYR(449):OH(1127)
+     A:GLN(42):1HE2(248) - E:TYR(449):HH(1129)
+     A:GLN(42):2HE2(249) - E:GLY(446):O(1098)
+     A:GLN(42):2HE2(249) - E:GLN(498):NE2(1625)
+     A:GLN(42):2HE2(249) - E:GLN(498):1HE2(1627)
+     A:GLN(42):2HE2(249) - E:GLN(498):2HE2(1628)
+     A:TYR(83):HH(656) - E:ASN(487):OD1(1512)
+     A:LYS(353):O(3304) - E:GLY(502):H(1660)
+     A:LYS(353):HZ3(3313) - E:GLY(496):O(1603)
+
+
+Atom-type pair counts within 4.0 angstroms:
+    Atom Type | Atom Type | Count
+   -----------|-----------|-------
+        C     |     OA    |   23  
+        HD    |     N     |   20  
+        C     |     C     |   3   
+        HD    |     OA    |   38  
+        C     |     N     |   14  
+        A     |     SA    |   2   
+        N     |     N     |   2   
+        A     |     OA    |   17  
+        N     |     OA    |   15  
+        A     |     A     |   4   
+        A     |     N     |   4   
+        OA    |     OA    |   11  
+        A     |     C     |   24  
+        HD    |     HD    |   20  
+        A     |     HD    |   12  
+        C     |     HD    |   41  
+
+Raw data:
+     A:SER(19):H1(8) - E:ALA(475):O(1416)
+     A:GLN(24):CB(53) - E:ASN(487):OD1(1512)
+     A:GLN(24):CB(53) - E:ASN(487):2HD2(1516)
+     A:GLN(24):CG(54) - E:ALA(475):O(1416)
+     A:GLN(24):CG(54) - E:ASN(487):ND2(1513)
+     A:GLN(24):CG(54) - E:ASN(487):2HD2(1516)
+     A:GLN(24):CD(55) - E:ASN(487):ND2(1513)
+     A:GLN(24):CD(55) - E:ASN(487):1HD2(1515)
+     A:GLN(24):CD(55) - E:ASN(487):2HD2(1516)
+     A:GLN(24):OE1(56) - E:ASN(487):CG(1511)
+     A:GLN(24):OE1(56) - E:ASN(487):ND2(1513)
+     A:GLN(24):OE1(56) - E:ASN(487):1HD2(1515)
+     A:THR(27):O(83) - E:PHE(456):CE1(1212)
+     A:THR(27):O(83) - E:PHE(456):CZ(1214)
+     A:THR(27):CG2(86) - E:PHE(456):CD1(1210)
+     A:THR(27):CG2(86) - E:PHE(456):CE1(1212)
+     A:THR(27):CG2(86) - E:PHE(456):CZ(1214)
+     A:THR(27):CG2(86) - E:ALA(475):CB(1417)
+     A:THR(27):CG2(86) - E:TYR(489):CE2(1533)
+     A:PHE(28):N(89) - E:TYR(489):OH(1535)
+     A:PHE(28):CA(90) - E:TYR(489):OH(1535)
+     A:PHE(28):CB(93) - E:TYR(489):OH(1535)
+     A:PHE(28):H(100) - E:TYR(489):OH(1535)
+     A:ASP(30):CB(114) - E:PHE(456):CE1(1212)
+     A:ASP(30):CG(115) - E:LYS(417):NZ(820)
+     A:ASP(30):CG(115) - E:LYS(417):HZ2(823)
+     A:ASP(30):CG(115) - E:LYS(417):HZ3(824)
+     A:ASP(30):OD1(116) - E:LYS(417):CE(819)
+     A:ASP(30):OD1(116) - E:LYS(417):HZ2(823)
+     A:ASP(30):OD2(117) - E:LYS(417):CE(819)
+     A:ASP(30):OD2(117) - E:LYS(417):NZ(820)
+     A:ASP(30):OD2(117) - E:LYS(417):HZ1(822)
+     A:ASP(30):OD2(117) - E:LYS(417):HZ2(823)
+     A:ASP(30):OD2(117) - E:LYS(417):HZ3(824)
+     A:LYS(31):CG(124) - E:TYR(489):CD1(1530)
+     A:LYS(31):NZ(127) - E:GLN(493):CD(1572)
+     A:LYS(31):NZ(127) - E:GLN(493):OE1(1573)
+     A:LYS(31):NZ(127) - E:GLN(493):NE2(1574)
+     A:LYS(31):NZ(127) - E:GLN(493):1HE2(1576)
+     A:LYS(31):NZ(127) - E:GLN(493):2HE2(1577)
+     A:LYS(31):HZ1(129) - E:GLU(484):OE1(1486)
+     A:LYS(31):HZ1(129) - E:GLN(493):CD(1572)
+     A:LYS(31):HZ1(129) - E:GLN(493):OE1(1573)
+     A:LYS(31):HZ1(129) - E:GLN(493):NE2(1574)
+     A:LYS(31):HZ1(129) - E:GLN(493):1HE2(1576)
+     A:LYS(31):HZ2(130) - E:GLN(493):CD(1572)
+     A:LYS(31):HZ2(130) - E:GLN(493):NE2(1574)
+     A:LYS(31):HZ2(130) - E:GLN(493):1HE2(1576)
+     A:LYS(31):HZ2(130) - E:GLN(493):2HE2(1577)
+     A:LYS(31):HZ3(131) - E:GLN(493):CG(1571)
+     A:LYS(31):HZ3(131) - E:GLN(493):CD(1572)
+     A:LYS(31):HZ3(131) - E:GLN(493):OE1(1573)
+     A:LYS(31):HZ3(131) - E:GLN(493):NE2(1574)
+     A:LYS(31):HZ3(131) - E:GLN(493):1HE2(1576)
+     A:LYS(31):HZ3(131) - E:GLN(493):2HE2(1577)
+     A:HIS(34):CB(159) - E:TYR(453):HH(1177)
+     A:HIS(34):CG(160) - E:TYR(453):OH(1175)
+     A:HIS(34):CG(160) - E:TYR(453):HH(1177)
+     A:HIS(34):CD2(162) - E:TYR(453):OH(1175)
+     A:HIS(34):CE1(163) - E:LEU(455):CD1(1201)
+     A:HIS(34):NE2(164) - E:TYR(453):OH(1175)
+     A:HIS(34):NE2(164) - E:TYR(453):HH(1177)
+     A:HIS(34):NE2(164) - E:LEU(455):CD1(1201)
+     A:HIS(34):HE2(166) - E:TYR(453):OH(1175)
+     A:HIS(34):HE2(166) - E:TYR(453):HH(1177)
+     A:HIS(34):HE2(166) - E:LEU(455):CD1(1201)
+     A:GLU(35):CD(174) - E:GLN(493):1HE2(1576)
+     A:GLU(35):OE1(175) - E:GLN(493):1HE2(1576)
+     A:GLU(35):OE2(176) - E:GLN(493):NE2(1574)
+     A:GLU(35):OE2(176) - E:GLN(493):1HE2(1576)
+     A:GLU(35):OE2(176) - E:GLN(493):2HE2(1577)
+     A:GLU(37):CD(190) - E:TYR(505):OH(1685)
+     A:GLU(37):OE1(191) - E:TYR(505):OH(1685)
+     A:GLU(37):OE2(192) - E:TYR(505):OH(1685)
+     A:GLU(37):OE2(192) - E:TYR(505):HH(1687)
+     A:ASP(38):CG(199) - E:TYR(449):CE1(1124)
+     A:ASP(38):CG(199) - E:TYR(449):OH(1127)
+     A:ASP(38):CG(199) - E:TYR(449):HH(1129)
+     A:ASP(38):OD1(200) - E:TYR(449):OH(1127)
+     A:ASP(38):OD1(200) - E:TYR(449):HH(1129)
+     A:ASP(38):OD1(200) - E:GLN(498):2HE2(1628)
+     A:ASP(38):OD2(201) - E:TYR(449):CE1(1124)
+     A:ASP(38):OD2(201) - E:TYR(449):CZ(1126)
+     A:ASP(38):OD2(201) - E:TYR(449):OH(1127)
+     A:TYR(41):CD2(231) - E:GLN(498):CD(1623)
+     A:TYR(41):CD2(231) - E:GLN(498):OE1(1624)
+     A:TYR(41):CD2(231) - E:GLN(498):NE2(1625)
+     A:TYR(41):CD2(231) - E:GLN(498):2HE2(1628)
+     A:TYR(41):CE2(233) - E:GLN(498):CD(1623)
+     A:TYR(41):CE2(233) - E:GLN(498):OE1(1624)
+     A:TYR(41):CE2(233) - E:GLN(498):NE2(1625)
+     A:TYR(41):CE2(233) - E:ASN(501):OD1(1651)
+     A:TYR(41):CZ(234) - E:THR(500):OG1(1641)
+     A:TYR(41):CZ(234) - E:ASN(501):OD1(1651)
+     A:TYR(41):OH(235) - E:THR(500):C(1638)
+     A:TYR(41):OH(235) - E:THR(500):O(1639)
+     A:TYR(41):OH(235) - E:THR(500):CB(1640)
+     A:TYR(41):OH(235) - E:THR(500):OG1(1641)
+     A:TYR(41):OH(235) - E:THR(500):HG1(1644)
+     A:TYR(41):OH(235) - E:ASN(501):N(1645)
+     A:TYR(41):OH(235) - E:ASN(501):OD1(1651)
+     A:TYR(41):HH(237) - E:GLN(498):CB(1621)
+     A:TYR(41):HH(237) - E:THR(500):CA(1637)
+     A:TYR(41):HH(237) - E:THR(500):C(1638)
+     A:TYR(41):HH(237) - E:THR(500):O(1639)
+     A:TYR(41):HH(237) - E:THR(500):CB(1640)
+     A:TYR(41):HH(237) - E:THR(500):H(1643)
+     A:TYR(41):HH(237) - E:ASN(501):N(1645)
+     A:TYR(41):HH(237) - E:ASN(501):OD1(1651)
+     A:TYR(41):HH(237) - E:ASN(501):H(1653)
+     A:GLN(42):CG(243) - E:GLN(498):2HE2(1628)
+     A:GLN(42):CD(244) - E:TYR(449):HH(1129)
+     A:GLN(42):CD(244) - E:GLN(498):NE2(1625)
+     A:GLN(42):CD(244) - E:GLN(498):1HE2(1627)
+     A:GLN(42):CD(244) - E:GLN(498):2HE2(1628)
+     A:GLN(42):OE1(245) - E:GLN(498):NE2(1625)
+     A:GLN(42):OE1(245) - E:GLN(498):1HE2(1627)
+     A:GLN(42):OE1(245) - E:GLN(498):2HE2(1628)
+     A:GLN(42):NE2(246) - E:GLY(446):O(1098)
+     A:GLN(42):NE2(246) - E:TYR(449):OH(1127)
+     A:GLN(42):NE2(246) - E:TYR(449):HH(1129)
+     A:GLN(42):NE2(246) - E:GLN(498):NE2(1625)
+     A:GLN(42):NE2(246) - E:GLN(498):1HE2(1627)
+     A:GLN(42):1HE2(248) - E:GLY(446):O(1098)
+     A:GLN(42):1HE2(248) - E:TYR(449):CE2(1125)
+     A:GLN(42):1HE2(248) - E:TYR(449):CZ(1126)
+     A:GLN(42):1HE2(248) - E:GLN(498):NE2(1625)
+     A:GLN(42):1HE2(248) - E:GLN(498):1HE2(1627)
+     A:GLN(42):1HE2(248) - E:GLN(498):2HE2(1628)
+     A:GLN(42):2HE2(249) - E:GLY(446):C(1097)
+     A:GLN(42):2HE2(249) - E:GLY(447):N(1100)
+     A:GLN(42):2HE2(249) - E:GLY(447):CA(1101)
+     A:GLN(42):2HE2(249) - E:TYR(449):CZ(1126)
+     A:GLN(42):2HE2(249) - E:TYR(449):OH(1127)
+     A:GLN(42):2HE2(249) - E:TYR(449):HH(1129)
+     A:GLN(42):2HE2(249) - E:GLN(498):CD(1623)
+     A:LEU(79):CD2(614) - E:PHE(486):CD1(1500)
+     A:MET(82):CB(638) - E:PHE(486):CE1(1502)
+     A:MET(82):CB(638) - E:PHE(486):CZ(1504)
+     A:MET(82):SD(640) - E:PHE(486):CD1(1500)
+     A:MET(82):SD(640) - E:PHE(486):CE1(1502)
+     A:TYR(83):CE1(651) - E:PHE(486):CE1(1502)
+     A:TYR(83):CE2(652) - E:PHE(486):CZ(1504)
+     A:TYR(83):CE2(652) - E:ASN(487):OD1(1512)
+     A:TYR(83):CE2(652) - E:ASN(487):2HD2(1516)
+     A:TYR(83):CZ(653) - E:PHE(486):CE1(1502)
+     A:TYR(83):CZ(653) - E:PHE(486):CZ(1504)
+     A:TYR(83):CZ(653) - E:ASN(487):OD1(1512)
+     A:TYR(83):OH(654) - E:PHE(486):CE1(1502)
+     A:TYR(83):OH(654) - E:PHE(486):CZ(1504)
+     A:TYR(83):OH(654) - E:ASN(487):CG(1511)
+     A:TYR(83):OH(654) - E:ASN(487):OD1(1512)
+     A:TYR(83):OH(654) - E:ASN(487):H(1514)
+     A:TYR(83):OH(654) - E:TYR(489):OH(1535)
+     A:TYR(83):OH(654) - E:TYR(489):HH(1537)
+     A:TYR(83):HH(656) - E:PHE(486):CG(1499)
+     A:TYR(83):HH(656) - E:PHE(486):CD1(1500)
+     A:TYR(83):HH(656) - E:PHE(486):CE1(1502)
+     A:TYR(83):HH(656) - E:PHE(486):CE2(1503)
+     A:TYR(83):HH(656) - E:PHE(486):CZ(1504)
+     A:TYR(83):HH(656) - E:ASN(487):N(1506)
+     A:TYR(83):HH(656) - E:ASN(487):CG(1511)
+     A:TYR(83):HH(656) - E:ASN(487):ND2(1513)
+     A:TYR(83):HH(656) - E:ASN(487):H(1514)
+     A:TYR(83):HH(656) - E:ASN(487):2HD2(1516)
+     A:TYR(83):HH(656) - E:TYR(489):OH(1535)
+     A:TYR(83):HH(656) - E:TYR(489):HH(1537)
+     A:ASN(330):CG(3101) - E:THR(500):CG2(1642)
+     A:ASN(330):OD1(3102) - E:THR(500):CG2(1642)
+     A:ASN(330):ND2(3103) - E:THR(500):CB(1640)
+     A:ASN(330):ND2(3103) - E:THR(500):CG2(1642)
+     A:ASN(330):1HD2(3105) - E:THR(500):O(1639)
+     A:ASN(330):2HD2(3106) - E:THR(500):CA(1637)
+     A:ASN(330):2HD2(3106) - E:THR(500):O(1639)
+     A:ASN(330):2HD2(3106) - E:THR(500):CB(1640)
+     A:ASN(330):2HD2(3106) - E:THR(500):CG2(1642)
+     A:LYS(353):CA(3302) - E:TYR(505):CG(1679)
+     A:LYS(353):CA(3302) - E:TYR(505):CD1(1680)
+     A:LYS(353):CA(3302) - E:TYR(505):CD2(1681)
+     A:LYS(353):CA(3302) - E:TYR(505):CE1(1682)
+     A:LYS(353):CA(3302) - E:TYR(505):CE2(1683)
+     A:LYS(353):CA(3302) - E:TYR(505):CZ(1684)
+     A:LYS(353):C(3303) - E:GLY(502):N(1656)
+     A:LYS(353):C(3303) - E:GLY(502):H(1660)
+     A:LYS(353):C(3303) - E:TYR(505):CG(1679)
+     A:LYS(353):C(3303) - E:TYR(505):CD1(1680)
+     A:LYS(353):C(3303) - E:TYR(505):CE1(1682)
+     A:LYS(353):O(3304) - E:ASN(501):CA(1646)
+     A:LYS(353):O(3304) - E:ASN(501):C(1647)
+     A:LYS(353):O(3304) - E:ASN(501):CB(1649)
+     A:LYS(353):O(3304) - E:GLY(502):N(1656)
+     A:LYS(353):O(3304) - E:GLY(502):CA(1657)
+     A:LYS(353):O(3304) - E:TYR(505):CB(1678)
+     A:LYS(353):O(3304) - E:TYR(505):CG(1679)
+     A:LYS(353):O(3304) - E:TYR(505):CD1(1680)
+     A:LYS(353):CB(3305) - E:TYR(505):CG(1679)
+     A:LYS(353):CB(3305) - E:TYR(505):CD2(1681)
+     A:LYS(353):CE(3308) - E:GLY(496):O(1603)
+     A:LYS(353):CE(3308) - E:ASN(501):2HD2(1655)
+     A:LYS(353):NZ(3309) - E:GLY(496):CA(1601)
+     A:LYS(353):NZ(3309) - E:GLY(496):C(1602)
+     A:LYS(353):NZ(3309) - E:GLY(496):O(1603)
+     A:LYS(353):NZ(3309) - E:GLY(496):H(1604)
+     A:LYS(353):NZ(3309) - E:ASN(501):2HD2(1655)
+     A:LYS(353):HZ1(3311) - E:GLY(496):N(1600)
+     A:LYS(353):HZ1(3311) - E:GLY(496):CA(1601)
+     A:LYS(353):HZ1(3311) - E:GLY(496):C(1602)
+     A:LYS(353):HZ1(3311) - E:GLY(496):O(1603)
+     A:LYS(353):HZ1(3311) - E:GLY(496):H(1604)
+     A:LYS(353):HZ2(3312) - E:GLY(496):O(1603)
+     A:LYS(353):HZ2(3312) - E:GLY(496):H(1604)
+     A:LYS(353):HZ3(3313) - E:GLY(496):N(1600)
+     A:LYS(353):HZ3(3313) - E:GLY(496):CA(1601)
+     A:LYS(353):HZ3(3313) - E:GLY(496):C(1602)
+     A:LYS(353):HZ3(3313) - E:GLY(496):H(1604)
+     A:LYS(353):HZ3(3313) - E:GLN(498):OE1(1624)
+     A:LYS(353):HZ3(3313) - E:ASN(501):2HD2(1655)
+     A:GLY(354):N(3314) - E:GLY(502):H(1660)
+     A:GLY(354):N(3314) - E:TYR(505):CD1(1680)
+     A:GLY(354):N(3314) - E:TYR(505):CE1(1682)
+     A:GLY(354):CA(3315) - E:GLY(502):H(1660)
+     A:GLY(354):C(3316) - E:GLY(502):N(1656)
+     A:GLY(354):C(3316) - E:GLY(502):CA(1657)
+     A:GLY(354):C(3316) - E:GLY(502):H(1660)
+     A:GLY(354):O(3317) - E:GLY(502):N(1656)
+     A:GLY(354):O(3317) - E:GLY(502):CA(1657)
+     A:GLY(354):O(3317) - E:GLY(502):H(1660)
+     A:GLY(354):H(3318) - E:TYR(505):CE1(1682)
+     A:ASP(355):N(3319) - E:GLY(502):H(1660)
+     A:ASP(355):CB(3323) - E:THR(500):O(1639)
+     A:ASP(355):CG(3324) - E:THR(500):O(1639)
+     A:ASP(355):OD2(3326) - E:THR(500):O(1639)
+     A:ASP(355):OD2(3326) - E:THR(500):CB(1640)
+     A:ASP(355):OD2(3326) - E:THR(500):OG1(1641)
+     A:ASP(355):H(3327) - E:GLY(502):H(1660)
+     A:ARG(357):NH1(3349) - E:THR(500):CB(1640)
+     A:ARG(357):NH1(3349) - E:THR(500):OG1(1641)
+     A:ARG(357):NH1(3349) - E:THR(500):CG2(1642)
+     A:ARG(357):1HH1(3353) - E:THR(500):O(1639)
+     A:ARG(357):1HH1(3353) - E:THR(500):CB(1640)
+     A:ARG(357):1HH1(3353) - E:THR(500):OG1(1641)
+     A:ARG(357):1HH1(3353) - E:THR(500):CG2(1642)
+     A:ARG(357):2HH1(3354) - E:THR(500):CB(1640)
+     A:ARG(357):2HH1(3354) - E:THR(500):OG1(1641)
+     A:ARG(357):2HH1(3354) - E:THR(500):CG2(1642)
+     A:ARG(393):NH2(3698) - E:TYR(505):OH(1685)
+     A:ARG(393):NH2(3698) - E:TYR(505):HH(1687)
+     A:ARG(393):1HH2(3703) - E:TYR(505):OH(1685)
+     A:ARG(393):2HH2(3704) - E:TYR(505):OH(1685)
+     A:ARG(393):2HH2(3704) - E:TYR(505):HH(1687)
+
+Ligand atom types:
+    Atom Type 
+   -----------
+        A     
+        C     
+        CL    
+        NA    
+        ZN    
+        OA    
+        N     
+        SA    
+        HD    
+
+Summed electrostatic energy by atom-type pair, in J/mol:
+    Atom Type | Atom Type | Energy (J/mol)
+   -----------|-----------|----------------
+        C     |     OA    | -526189.316283 
+        HD    |     N     | -611174.710356 
+        C     |     C     |  22944.4639168 
+        HD    |     OA    | -1706272.58756 
+        C     |     N     | -206727.913782 
+        A     |     SA    | -526.850060224 
+        N     |     N     |  78863.8844839 
+        A     |     OA    |  -80749.744852 
+        N     |     OA    |  634959.42759  
+        A     |     A     |  39.0909379057 
+        A     |     N     | -12119.5009245 
+        OA    |     OA    |  817057.997725 
+        A     |     C     |  12688.2245885 
+        HD    |     HD    |  442316.305574 
+        A     |     HD    |  28267.3752773 
+        C     |     HD    |  592025.92216  
+
+Number of rotatable bonds in the ligand: 0
+
+Active-site flexibility:
+    Sidechain/Backbone | Secondary Structure | Count 
+   --------------------|---------------------|-------
+         SIDECHAIN     |        OTHER        |  177  
+         SIDECHAIN     |         BETA        |   44  
+         BACKBONE      |        OTHER        |   45  
+
+Hydrogen bonds:
+    Location of Donor | Sidechain/Backbone | Secondary Structure | Count 
+   -------------------|--------------------|---------------------|-------
+         RECEPTOR     |      BACKBONE      |        OTHER        |   1   
+          LIGAND      |      BACKBONE      |        OTHER        |   1   
+
+Raw data:
+     A:GLN(42):NE2(246) - A:GLN(42):2HE2(249) - E:GLY(446):O(1098)
+     A:LYS(353):O(3304) - E:GLY(502):H(1660) - E:GLY(502):N(1656)
+
+Hydrophobic contacts (C-C):
+    Sidechain/Backbone | Secondary Structure | Count 
+   --------------------|---------------------|-------
+         SIDECHAIN     |        OTHER        |   28  
+         SIDECHAIN     |         BETA        |   2   
+         BACKBONE      |        OTHER        |   1   
+
+Raw data:
+     A:THR(27):CG2(86) - E:PHE(456):CD1(1210)
+     A:THR(27):CG2(86) - E:PHE(456):CE1(1212)
+     A:THR(27):CG2(86) - E:PHE(456):CZ(1214)
+     A:THR(27):CG2(86) - E:ALA(475):CB(1417)
+     A:THR(27):CG2(86) - E:TYR(489):CE2(1533)
+     A:ASP(30):CB(114) - E:PHE(456):CE1(1212)
+     A:LYS(31):CG(124) - E:TYR(489):CD1(1530)
+     A:HIS(34):CE1(163) - E:LEU(455):CD1(1201)
+     A:ASP(38):CG(199) - E:TYR(449):CE1(1124)
+     A:TYR(41):CD2(231) - E:GLN(498):CD(1623)
+     A:TYR(41):CE2(233) - E:GLN(498):CD(1623)
+     A:LEU(79):CD2(614) - E:PHE(486):CD1(1500)
+     A:MET(82):CB(638) - E:PHE(486):CE1(1502)
+     A:MET(82):CB(638) - E:PHE(486):CZ(1504)
+     A:TYR(83):CE1(651) - E:PHE(486):CE1(1502)
+     A:TYR(83):CE2(652) - E:PHE(486):CZ(1504)
+     A:TYR(83):CZ(653) - E:PHE(486):CE1(1502)
+     A:TYR(83):CZ(653) - E:PHE(486):CZ(1504)
+     A:ASN(330):CG(3101) - E:THR(500):CG2(1642)
+     A:LYS(353):CA(3302) - E:TYR(505):CG(1679)
+     A:LYS(353):CA(3302) - E:TYR(505):CD1(1680)
+     A:LYS(353):CA(3302) - E:TYR(505):CD2(1681)
+     A:LYS(353):CA(3302) - E:TYR(505):CE1(1682)
+     A:LYS(353):CA(3302) - E:TYR(505):CE2(1683)
+     A:LYS(353):CA(3302) - E:TYR(505):CZ(1684)
+     A:LYS(353):C(3303) - E:TYR(505):CG(1679)
+     A:LYS(353):C(3303) - E:TYR(505):CD1(1680)
+     A:LYS(353):C(3303) - E:TYR(505):CE1(1682)
+     A:LYS(353):CB(3305) - E:TYR(505):CG(1679)
+     A:LYS(353):CB(3305) - E:TYR(505):CD2(1681)
+     A:GLY(354):C(3316) - E:GLY(502):CA(1657)
+
+pi-pi stacking interactions:
+    Secondary Structure | Count 
+   ---------------------|-------
+
+Raw data:
+
+T-stacking (face-to-edge) interactions:
+    Secondary Structure | Count 
+   ---------------------|-------
+
+Raw data:
+
+Cation-pi interactions:
+    Which residue is charged? | Secondary Structure | Count 
+   ---------------------------|---------------------|-------
+
+Raw data:
+
+Salt Bridges:
+    Secondary Structure | Count 
+   ---------------------|-------
+           OTHER        |   2   
+
+Raw data:
+     [A:ASP(30):CG(115) / A:ASP(30):OD1(116) / A:ASP(30):OD2(117)] - [E:LYS(417):NZ(820) / E:LYS(417):HZ1(822) / E:LYS(417):HZ2(823) / E:LYS(417):HZ3(824)]
+     [A:LYS(31):NZ(127) / A:LYS(31):HZ1(129) / A:LYS(31):HZ2(130) / A:LYS(31):HZ3(131)] - [E:GLU(484):CD(1485) / E:GLU(484):OE1(1486) / E:GLU(484):OE2(1487)]

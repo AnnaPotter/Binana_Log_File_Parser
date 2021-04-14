@@ -1,0 +1,9 @@
+2021-04-14 14:19:15,365 - binana_log_parser - INFO - Getting command line arguments.
+2021-04-14 14:19:15,367 - binana_log_parser - INFO - Getting information from input file.
+2021-04-14 14:19:15,368 - binana_log_parser - INFO - Ligand type is Special.
+2021-04-14 14:19:15,377 - binana_log_parser - INFO - Parsing of Hydrogen bonds.
+2021-04-14 14:19:15,377 - binana_log_parser - INFO - Parsing of Hydrophobic contacts.
+2021-04-14 14:19:15,378 - binana_log_parser - INFO - Parsing of pi-pi lines.
+2021-04-14 14:19:15,378 - binana_log_parser - INFO - Parsing of t-stacking lines.
+2021-04-14 14:19:15,378 - binana_log_parser - INFO - Parsing of cation-pi lines.
+2021-04-14 14:19:15,378 - binana_log_parser - INFO - Parsing of salt bridges lines.
