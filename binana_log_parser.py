@@ -490,25 +490,6 @@ def get_repeat_h_lines(h_atoms):
     return mas_repeat_h
 
 
-# !!! we change only first ligand atom name.
-# doesn't affect the special case (cause output without digits) 
-def extension_atom_writing_name(mas_index, h_atoms, logger):
-    """ Gets list of identical lines indexes and 
-        adds one character to the current name of the first atom """
-    
-    for ind in mas_index:
-        prev_writ_name = h_atoms[ind][0].atom_writing_name
-        atom_name = h_atoms[ind][0].atom_name
-        if len(prev_writ_name) < len(atom_name):
-            h_atoms[ind][0].atom_writing_name = prev_writ_name + \
-                get_superscript_str(atom_name[len(prev_writ_name):len(prev_writ_name)+1])
-        else:
-            logger.warning("Index out of range. Maybe, two identical H-bond interactions lines was found. \
-                            Or it's length difference in their first atoms names. Check manually.")
-        # in case above we use 'if else' (not 'try except') cause of a length difference like CA-H-N and C-H-N
-    return h_atoms
-
-
 def is_all_unique(rep_h_lines):
     """ Checks if all atoms are different """
     for mas_ind in rep_h_lines:
